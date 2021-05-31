@@ -146,7 +146,7 @@ class Controller():
             #image size description under grid
             self.view.grid.update_image_size()
             #setting new project name
-            self.master.master.title(project_data[PROJECT_NAME])
+            self.master.master.master.master.title(project_data[PROJECT_NAME])
             self.view.messages["grid_max_x"] = width - 1
             self.view.messages["grid_max_y"] = height - 1
             self.clear_old_project()
